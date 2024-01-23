@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "g++ - Compile/link/debug active file",
+            "name": "Build C++ Project",
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/a.out",
@@ -21,7 +21,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "g++: Compile/link active file"
+            "preLaunchTask": "Compile/link C++ files"
         }
     ]
 }

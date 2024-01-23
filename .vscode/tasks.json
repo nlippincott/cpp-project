@@ -3,8 +3,8 @@
     "tasks": [
         {
             "type": "shell",
-            "label": "g++: Compile/link active file",
-             "command": "g++ -c -g -o ${fileBasenameNoExtension}.o ${fileBasename}; g++ -g ${fileBasenameNoExtension}.o; rm ${fileBasenameNoExtension}.o",
+            "label": "Compile/link C++ files",
+            "command": "g++ -c -g *.cpp; g++ -g *.o; rm *.o",
             "options": {
                 "cwd": "${workspaceFolder}"
             },
